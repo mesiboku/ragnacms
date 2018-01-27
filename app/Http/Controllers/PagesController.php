@@ -20,4 +20,10 @@ class PagesController extends Controller
     public function register(){
         return view('pages.register');
     }
+
+
+    public function sample(){
+        return view('pages.sample');
+    }
+
 }
