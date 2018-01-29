@@ -1,5 +1,9 @@
+
 <html>
     <head>
+        <!-- Website Tittle -->
+        <title><?php echo Config::get('application.WebsiteName'); ?></title>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
@@ -7,7 +11,6 @@
 
         <link rel="shortcut icon" href="{{asset('images/favicon_1.ico')}}">
 
-        <title>{{config('app.name', 'RagnaProviderPH')}}</title>
         <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
         <link rel="stylesheet" href="{{asset('css/landing/style.css')}}"/>
         <link href="{{asset('css/core.css')}}" rel="stylesheet" type="text/css">

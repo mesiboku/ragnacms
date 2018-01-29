@@ -2,7 +2,7 @@
         <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <p class="copyright">2016 © Minton.</p>
+          <p class="copyright">© Copyright 2018 <?php echo Config::get('application.WebsiteName'); ?></p>
                   </div>
                   <div class="col-sm-9">
           <ul class="nav navbar-nav navbar-right">
