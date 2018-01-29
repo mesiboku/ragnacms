@@ -7,9 +7,8 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function index(){
-        $title ='Welcome to Ragnarok';
         //return view('pages.index', compact('title'));
-        return view('pages.index')->with('title', $title);
+        return view('pages.index');
     }
 
 
@@ -19,11 +18,6 @@ class PagesController extends Controller
 
     public function register(){
         return view('pages.register');
-    }
-
-
-    public function sample(){
-        return view('pages.sample');
     }
 
 }
