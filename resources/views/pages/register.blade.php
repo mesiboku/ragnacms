@@ -1,66 +1,41 @@
+@extends('layouts.app')
 
-<html>
-    <head>
-        <!-- Website Tittle -->
-        <title><?php echo Config::get('application.WebsiteName'); ?></title>
+<!-- Title -->
+@section('pageTitle', Config::get('application.WebsiteName'))
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
-        <meta name="author" content="Coderthemes">
+<!-- Top Nav -->
+@section('nav')
+  @include('inc.front_nav')
+@endsection
 
-        <link rel="shortcut icon" href="{{asset('images/favicon_1.ico')}}">
-
-        <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
-        <link rel="stylesheet" href="{{asset('css/landing/style.css')}}"/>
-        <link href="{{asset('css/core.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{asset('css/icons.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{asset('css/components.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{asset('css/pages.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{asset('css/menu.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
-
-        <script src="{{asset('js/modernizr.min.js')}}"></script>
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-        
-    </head>
-    <body>
-
-
+@section('content')
         <div class="wrapper-page">
 
             <div class="text-center">
-                <a href="/" class="logo-lg"><i class="md md-equalizer"></i> <span>{{config('app.name', 'RagnaProviderPH')}}</span> </a>
+                <a href="/" class="logo-lg"><i class="md md-equalizer"></i> <span>{{Lang::get('registration.CreateAccount')}}</span> </a>
             </div>
 
             <form class="form-horizontal m-t-20" action="index.html">
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input class="form-control" type="text" required="" placeholder="Username">
+                        <input class="form-control" type="text" required="" placeholder="{{Lang::get('registration.Username')}}">
                         <i class="md md-assignment-ind form-control-feedback l-h-34"></i>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-xs-6">
-                        <input class="form-control" type="password" required="" placeholder="Password">
+                        <input class="form-control" type="password" required="" placeholder="{{Lang::get('registration.Password')}}">
                         <i class="md md-security form-control-feedback l-h-34"></i>
                     </div>
                     <div class="col-xs-6">
-                        <input class="form-control" type="password" required="" placeholder="Confirm Password">
+                        <input class="form-control" type="password" required="" placeholder="{{Lang::get('registration.ConfirmPassword')}}">
                         <i class="md md-security form-control-feedback l-h-34"></i>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input class="form-control" type="email" required="" placeholder="Date Of Birth(MM/DD/YYYY)" id="datepicker">
+                        <input class="form-control" type="email" required="" placeholder="{{Lang::get('registration.DateOfBirth')}}" id="datepicker">
                         <i class="md md-today form-control-feedback l-h-34"></i>
                         
                     </div>
@@ -85,7 +60,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="number" required="" placeholder="Phone number">
+                            <input class="form-control" type="number" required="" placeholder="{{Lang::get('registration.PhoneNumber')}}">
                             <i class="md md-assignment-ind form-control-feedback l-h-34"></i>
                         </div>
                     </div>
@@ -109,14 +84,15 @@
 
                 <div class="form-group m-t-30">
                     <div class="col-sm-12 text-center">
-                        <a href="/login" class="text-muted">Already have account?</a>
+                        <a href="/login" class="text-muted">{{Lang::get('registration.AlreadyHaveAccount')}}</a>
                     </div>
                 </div>
             </form>
 
         </div>
+@endsection
 
-        
+@section('scripts')    
     	<script>
             var resizefunc = [];
         </script>
@@ -144,5 +120,4 @@
                 });
             });
         </script>
-	</body>
-</html>
+@endsection
