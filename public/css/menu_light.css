@@ -22,21 +22,7 @@ File: Topbar,Left-sidebar,Right-sidebar
   width: 240px;
   z-index: 1;
 }
-.logo {
-  color: #ffffff !important;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: .02em;
-  line-height: 70px;
-}
-.logo h1 {
-  height: 50px;
-  margin: 0px auto;
-  text-align: center;
-}
-.logo i {
-  color: #ffffff;
-}
+
 .navbar-default {
   background-color: #3bafda;
   border-radius: 0px;

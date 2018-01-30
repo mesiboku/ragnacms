@@ -100,13 +100,6 @@ File: Responsive
   .topbar-left {
     width: 70px !important;
   }
-  .logo .icon-c-logo {
-    display: inline-block !important;
-    line-height: 58px !important;
-  }
-  .logo span {
-    display: none !important;
-  }
   .content-page {
     margin-left: 70px;
   }

@@ -430,7 +430,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-custom .navbar-nav li a {
   color: #374760;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 900;
   background-color: transparent !important;
 }
 .navbar-custom .navbar-nav li a:hover,.navbar-custom .navbar-nav li a:focus,.navbar-custom .navbar-nav li a:active {
@@ -439,16 +439,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-custom .nav>li>a:focus,.navbar-custom .nav>li>a:hover {
   background-color: #374760;
 }
-.logo {
-  font-weight: 500;
-  font-size: 22px;
-  color: #374760 !important;
-  letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
-}
-.logo i{
-  font-size: 20px;
-}
+
 .navbar-toggle {
   font-size: 30px;
 }
@@ -461,7 +452,42 @@ h1,h2,h3,h4,h5,h6 {
   border-color: #337ab7;
 }
 
+/*===== Logo ======*/
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  color: #374760 !important;
+  float: left;
+}
 
+.logo i{
+  font-size: 20px;
+  color: #374760;
+}
+
+.logo-lg {
+font-size: 26px !important;
+font-weight: 600;
+line-height: 70px;
+color: #3bafda !important;
+}
+
+.logo h1 {
+height: 50px;
+margin: 0px auto;
+text-align: center;
+}
+
+.logo .icon-c-logo {
+display: inline-block !important;
+line-height: 58px !important;
+}
+
+.logo span {
+display: none !important;
+}
 
 /*======= Home =======*/
 

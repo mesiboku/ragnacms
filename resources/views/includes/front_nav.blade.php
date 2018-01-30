@@ -36,9 +36,8 @@
                 <i class=" ti-menu"></i>
             </button>
             <!-- LOGO -->
-            <a class="navbar-brand logo" href="/">
-              <i class="glyphicon glyphicon-stats"></i>
-                <span><?php echo Config::get('application.WebsiteName'); ?></span>
+            <a href="/">
+              <div class="logo"> <?php echo Config::get('application.WebsiteName'); ?></div>
             </a>
           </div>
           <!-- end navbar-header -->

@@ -2,11 +2,10 @@
 
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
-<!-- Title -->
 
 <!-- Top Nav -->
 @section('nav')
-  @include('inc.front_nav')
+  @include('includes.front_nav')
 @endsection
 <!-- END Top Nav -->
 
