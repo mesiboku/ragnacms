@@ -5,16 +5,16 @@
         @include('includes.head')
 </head>
     <body>
-        @yield('nav')
+        @include('includes.front_nav')
         <section class="home parallax" data-stellar-background-ratio="0.5">
-        @yield('overlay')
+        <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row">
         @yield('content')
                 </div>
             </div>
         </section>
-        @yield('scripts')
         @include('includes.footer')
+        @include('includes.script')
     </body>
 </html>
