@@ -29,7 +29,15 @@
 
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="email" required="" placeholder="{{Lang::get('registration.DateOfBirth')}}" id="datepicker">
+                            <input class="form-control" type="email" required="" placeholder="{{Lang::get('registration.Email')}}" id="email">
+                            <i class="md md-security form-control-feedback l-h-34"></i>
+                            
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <input class="form-control" type="date" required="" placeholder="{{Lang::get('registration.DateOfBirth')}}" id="datepicker">
                             <i class="md md-today form-control-feedback l-h-34"></i>
                             
                         </div>
