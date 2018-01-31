@@ -4,6 +4,7 @@
   </div>
 -->
 
+
 <div class="tagline hidden-xs"> 
   <div class="container"> 
     <div class="pull-left"> 
@@ -28,7 +29,7 @@
   </div>
 </div>
 
-<div class="navbar navbar-custom sticky" role="navigation">
+<div class="navbar-custom sticky" role="navigation">
         <div class="container">
           <!-- Navbar-header -->
           <div class="navbar-header">

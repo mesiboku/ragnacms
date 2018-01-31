@@ -8,15 +8,16 @@
     @include('includes.front_nav')
 @endsection
 
+@section('overlay')
+  <div class="bg-overlay"></div>
+@endsection
+
 @section('content')
-<div class="container">
-      <div class="row">
         <div class="wrapper-page">
             <div class="reg-container">
                 <div class="text-center logo-lg">
                     {{Lang::get('registration.CreateAccount')}}
                 </div>
-
                 <form class="form-horizontal m-t-20" action="index.html">
                     <div class="form-group">
                         <div class="col-xs-12">
@@ -92,8 +93,6 @@
                 </form>
             </div>
         </div>
-    </div>
-</div>
 @endsection
 
 @section('scripts')    

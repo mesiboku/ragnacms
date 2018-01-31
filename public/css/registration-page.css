@@ -6,6 +6,7 @@
  =============*/
 .wrapper-page {
   margin: auto;
+  position:relative
 }
 
 .reg-container {
@@ -15,6 +16,7 @@
   padding: 30px;
   color: #4a8e99;
   float: right;
+  background-color: #eee;
 }
 
 .wrapper-page .form-control {
