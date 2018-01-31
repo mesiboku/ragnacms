@@ -3,16 +3,6 @@
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
 
-<!-- Top Nav -->
-@section('nav')
-  @include('includes.front_nav')
-@endsection
-<!-- END Top Nav -->
-
-@section('overlay')
-  <div class="bg-overlay"></div>
-@endsection
-
 <!-- HOME -->
 @section('content')
         <div class="col-sm-12">
