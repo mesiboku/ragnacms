@@ -1,8 +1,7 @@
-<!-- Pre-loader 
-  <div class="preloader">
-    <div class="status">&nbsp;</div>  
-  </div>
--->
+<!-- Pre-loader -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
 
 
 <div class="tagline hidden-xs"> 
