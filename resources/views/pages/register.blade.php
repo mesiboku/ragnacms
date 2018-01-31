@@ -3,14 +3,6 @@
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
 
-<!-- Top Nav -->
-{{--  @section('nav')
-    @include('includes.front_nav')
-@endsection
-
-@section('overlay')
-@endsection  --}}
-
 @section('content')
         <div class="wrapper-page">
             <div class="reg-container">
