@@ -4,6 +4,7 @@
   </div>
 -->
 
+
 <div class="tagline hidden-xs"> 
   <div class="container"> 
     <div class="pull-left"> 
@@ -28,7 +29,7 @@
   </div>
 </div>
 
-<div class="navbar navbar-custom sticky" role="navigation">
+<div class="navbar-custom sticky" role="navigation">
         <div class="container">
           <!-- Navbar-header -->
           <div class="navbar-header">
@@ -36,9 +37,8 @@
                 <i class=" ti-menu"></i>
             </button>
             <!-- LOGO -->
-            <a class="navbar-brand logo" href="/">
-              <i class="glyphicon glyphicon-stats"></i>
-                <span><?php echo Config::get('application.WebsiteName'); ?></span>
+            <a href="/">
+              <div class="logo"> <?php echo Config::get('application.WebsiteName'); ?></div>
             </a>
           </div>
           <!-- end navbar-header -->
