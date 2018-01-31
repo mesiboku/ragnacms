@@ -4,6 +4,7 @@ return array(
         'Username'                      => 'Username',
         'Password'                      => 'Password',
         'ConfirmPassword'               => 'Confirm Password',
+        'Email'                         => 'Email',
         'DateOfBirth'                   => 'Date Of Birth(MM/DD/YYYY)',
         'PhoneNumber'                   => 'Phone number',
         'AlreadyHaveAccount'            => 'Already have account?',     // Already have account?
