@@ -18,10 +18,8 @@
     </div>
     <div class="pull-right"> 
       <ul class="top_socials"> 
-        <li><a href="javascript:void(0);"><i class="  ti-facebook"></i></a></li>
-        <li><a href="javascript:void(0);"><i class=" ti-skype"></i></a></li>
-        <li><a href="javascript:void(0);"><i class=" ti-twitter-alt"></i></a></li>
-        <li><a href="javascript:void(0);"><i class=" ti-github"></i></a></li>
+        <li><a href={{Config::get('application.SocialFacebook')}}><i class="  ti-facebook"></i></a></li>
+        <li><a href={{Config::get('application.SocialTwitter')}}><i class=" ti-twitter-alt"></i></a></li>
       </ul> 
     </div>
     <div class="clear"></div>
@@ -67,7 +65,7 @@
                 <a href="/register">Register</a>
               </li>
               <li>
-                <a href="#">login</a>
+                <a href="#">Login</a>
               </li>
             </ul>
           </div>
