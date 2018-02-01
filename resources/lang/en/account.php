@@ -9,7 +9,7 @@ return array(
         'LastName'                      => 'Last Name',
         'DateOfBirth'                   => 'Date Of Birth(MM/DD/YYYY)',
         'PhoneNumber'                   => 'Phone number',
-        'AlreadyHaveAccount'            => 'Already have account?', 
+        'AlreadyHaveAccount'            => 'Already have an account?', 
         'PersonalInfo'                  => 'Personal Information',
         'SecurityQuestions'             => 'Security Questions',
         'ForgotPass'                    => 'Forgot your password?',
