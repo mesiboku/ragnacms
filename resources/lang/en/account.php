@@ -12,5 +12,7 @@ return array(
         'AlreadyHaveAccount'            => 'Already have account?', 
         'PersonalInfo'                  => 'Personal Information',
         'SecurityQuestions'             => 'Security Questions',
+        'ForgotPass'                    => 'Forgot your password?',
+        'Login'                         => 'Login Panel',
 	);
 ?>

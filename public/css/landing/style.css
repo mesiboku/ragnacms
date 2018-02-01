@@ -45,11 +45,7 @@ h1,h2,h3,h4,h5,h6 {
   border-top: 1px solid #f5f5f5;
 }
 .bg-dark {
-  background: -webkit-linear-gradient(#4a8e99, #244c54);
-  background: -moz-linear-gradient(#4a8e99, #244c54);
-  background: -ms-linear-gradient(#4a8e99, #244c54);
-  background: -o-linear-gradient(#4a8e99, #244c54);
-  background: linear-gradient(#4a8e99, #244c54);
+  background-color: #4a8e99;
 }
 .bg-overlay {
   background: -webkit-linear-gradient(#444F5C, #334159);
@@ -506,6 +502,18 @@ display: none !important;
   font-size: 16px;
 }
 
+.font-style-1 {
+  font-size: 25px !important;
+  font-weight: 600;
+  line-height: 70px;
+  color: #3bafda !important;
+}
+.font-style-2 {
+  font-size: 18px !important;
+  font-weight: 600;
+  line-height: 30px;
+  color: #3bafda !important;
+}
 /*======= Services =======*/
 .service-item {
   margin-top: 30px;
@@ -716,6 +724,7 @@ display: none !important;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
 }
+
 .copyright {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0px;

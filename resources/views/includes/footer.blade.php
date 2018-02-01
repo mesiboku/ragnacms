@@ -10,16 +10,19 @@
                     <a href="#how-it-work">Games</a>
                     </li>
                     <li>
-                    <a href="#pricing">Purchase</a>
+                    <a href="#pricing">TOP-UP</a>
                     </li>
                     <li>
                     <a href="#faq">About</a>
                     </li>
                     <li>
-                        <a href="#">Register</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">login</a>
+                        <a href="#">Partners</a>
+                    </li>
+                    <li>
+                        <a href="#">Community</a>
                     </li>
             </ul>
             </div>

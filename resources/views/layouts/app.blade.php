@@ -7,7 +7,6 @@
     <body>
         @include('includes.front_nav')
         <section class="home parallax" data-stellar-background-ratio="0.5">
-        <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row">
         @yield('content')
