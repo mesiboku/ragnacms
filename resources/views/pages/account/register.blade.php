@@ -3,6 +3,12 @@
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
 
+@section('menu')
+<li>
+    <a href="/login">Login</a>
+</li>
+@endsection
+
 @section('content')
         <div class="wrapper-page">
             <div class="reg-container">
