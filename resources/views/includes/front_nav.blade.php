@@ -61,16 +61,7 @@
               <li>
                 <a href="#community">Community</a>
               </li>
-<<<<<<< HEAD
               @yield('menu')
-=======
-              <li>
-                <a href="/register">Register</a>
-              </li>
-              <li>
-                <a href="#">Login</a>
-              </li>
->>>>>>> change_01
             </ul>
           </div>
           <!--/Menu -->

@@ -12,10 +12,7 @@ return array(
         'AlreadyHaveAccount'            => 'Already have account?', 
         'PersonalInfo'                  => 'Personal Information',
         'SecurityQuestions'             => 'Security Questions',
-<<<<<<< HEAD:resources/lang/en/account.php
         'ForgotPass'                    => 'Forgot your password?',
         'Login'                         => 'Login Panel',
-=======
->>>>>>> change_01:resources/lang/en/registration.php
 	);
 ?>
