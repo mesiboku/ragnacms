@@ -3,12 +3,6 @@
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
 
-@section('menu')
-<li>
-    <a href="/register">Register</a>
-</li>
-@endsection
-
 @section('content')
         <div class="wrapper-page">
             <div class="login-container">
@@ -37,7 +31,12 @@
                     </div>
 
                     <div class="form-group m-t-30">
-                        <div class="col-sm-12 text-center">
+                        <div class="col-sm-12 text-left">
+                            <a href="/register" class="text-muted">{{Lang::get('account.CreateAccount')}}</a>
+                        </div>
+                    </div>
+                    <div class="form-group m-t-30">
+                        <div class="col-sm-12 text-left">
                             <a href="/forgotpass" class="text-muted">{{Lang::get('account.ForgotPass')}}</a>
                         </div>
                     </div>
