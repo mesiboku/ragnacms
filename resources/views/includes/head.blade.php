@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="{{asset('css/icons.css')}}" type="text/css">
 <link rel="stylesheet" href="{{asset('css/components.css')}}" type="text/css">
 <link rel="stylesheet" href="{{asset('css/responsive.css')}}" type="text/css">
-<link rel="stylesheet" href="{{asset('css/registration-page.css')}}" type="text/css">
 
 <script src="{{asset('js/modernizr.min.js')}}"></script>
+
+{{-- pages/account --}}
+<link rel="stylesheet" href="{{asset('css/registration-page.css')}}" type="text/css">
+<link rel="stylesheet" href="{{asset('css/login-page.css')}}" type="text/css">
