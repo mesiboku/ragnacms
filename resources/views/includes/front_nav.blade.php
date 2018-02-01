@@ -7,9 +7,6 @@
 <div class="tagline hidden-xs"> 
   <div class="container"> 
     <div class="pull-left"> 
-        <div class="phone">
-          <i class=" ti-mobile"></i> +1 800 123 45 67
-        </div>
         <div class="email">
           <a href="mailto:#">
             <i class=" ti-email"></i> support@wedevgames.net
