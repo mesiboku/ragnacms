@@ -25,9 +25,15 @@ class CreateClientsTable extends Migration
             $table->string('country');
             $table->string('phone',20);
             $table->string('secret_question',11);
+<<<<<<< HEAD
             $table->integer('acc_wallet')->unsigned()->default(0);
             $table->string('last_ip');
             $table->dateTime('lastlogin');
+=======
+            $table->integer('acc_wallet',6);
+            $table->timestamps('last_ip');
+            $table->timestamps('lastlogin');
+>>>>>>> change_01
             $table->rememberToken();
             $table->timestamps();
         });
