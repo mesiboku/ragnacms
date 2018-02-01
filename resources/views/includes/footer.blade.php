@@ -16,7 +16,7 @@
                     <a href="#faq">About</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Media</a>
                     </li>
                     <li>
                         <a href="#">Partners</a>
