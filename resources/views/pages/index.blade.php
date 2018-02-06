@@ -5,16 +5,18 @@
 
 <!-- HOME -->
 @section('content')
-        <div class="col-sm-12">
-          <div class="home-wrapper text-center">
-            <h1 class="animated fadeInDown wow" data-wow-delay=".1s">Welcome to WeDevGames</h1>
-            <p class="animated fadeInDown wow" data-wow-delay=".2s">An private organization who develop online games.</p>
-            <a href="/register" class="btn btn-primary btn-rounded w-lg animated fadeInDown wow" data-wow-delay=".4s">Register Now</a>
-            <div class="clearfix"></div>
-            
-          </div>
+    <div class="container top-margin">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="home-wrapper text-center">
+                    <h1 class="animated fadeInDown wow" data-wow-delay=".1s">Welcome to WeDevGames</h1>
+                    <p class="animated fadeInDown wow" data-wow-delay=".2s">An private organization who develop online games.</p>
+                    <a href="/register" class="btn btn-primary btn-rounded w-lg animated fadeInDown wow" data-wow-delay=".4s">Register Now</a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
         </div>
-
+    </div>
 <!-- END HOME -->
 @endsection
 
