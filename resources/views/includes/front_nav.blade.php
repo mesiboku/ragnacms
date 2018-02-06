@@ -3,38 +3,35 @@
   <div class="status">&nbsp;</div>
 </div>
 
-
 <div class="tagline hidden-xs"> 
-  <div class="container"> 
-    <div class="pull-left"> 
-        <div class="email">
-          <a href="mailto:#">
-            <i class=" ti-email"></i> support@wedevgames.net
-          </a>
-        </div>
+  <div class="container">
+    <div class="row">
+        
+            <div class="pull-left"> 
+                <div class="email">
+                  <a href="mailto:#">
+                    <i class=" ti-email"></i> support@wedevgames.net
+                  </a>
+                </div>
+            </div>
+            <div class="pull-right"> 
+              <ul class="top_socials"> 
+                <li><a href={{Config::get('application.SocialFacebook')}}><i class="  ti-facebook"></i></a></li>
+                <li><a href={{Config::get('application.SocialTwitter')}}><i class=" ti-twitter-alt"></i></a></li>
+              </ul> 
+            </div>
+            <div class="clear"></div>
     </div>
-    <div class="pull-right"> 
-      <ul class="top_socials"> 
-        <li><a href={{Config::get('application.SocialFacebook')}}><i class="  ti-facebook"></i></a></li>
-        <li><a href={{Config::get('application.SocialTwitter')}}><i class=" ti-twitter-alt"></i></a></li>
-      </ul> 
-    </div>
-    <div class="clear"></div>
   </div>
 </div>
 
+
 <div class="navbar-custom sticky" role="navigation">
         <div class="container">
-          <!-- Navbar-header -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <i class=" ti-menu"></i>
-            </button>
-            <!-- LOGO -->
-            <a href="/">
-              <div class="logo"> <?php echo Config::get('application.WebsiteName'); ?></div>
-            </a>
-          </div>
+          <!-- LOGO -->
+          <a href="/">
+            <div class="logo pull-left"> <?php echo Config::get('application.WebsiteName'); ?></div>
+          </a>
           <!-- end navbar-header -->
   
           <!-- menu -->
@@ -58,7 +55,14 @@
               <li>
                 <a href="#community">Community</a>
               </li>
-              @yield('menu')
+              <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/login">Login</a></li>
+                      <li><a href="/register">Register</a></li>
+                      <li><a href="#">Forgot Password?</a></li>
+                    </ul>
+              </li>
             </ul>
           </div>
           <!--/Menu -->

@@ -4,32 +4,14 @@
 /* ===========
    Client Registration Page.
  =============*/
-.wrapper-page {
-  margin: auto;
-  position:relative
-}
 
 .reg-container {
-  max-width: 450px;
-  margin: 3%;
-  border: 5px solid #4a8e99;
-  padding: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: 2px solid #4a8e99;
+  /* padding-left: 30px;
+  padding-right: 30px; */
   color: #4a8e99;
-  float: right;
   background-color: #eee;
-  border-radius: 50px;
-}
-
-.wrapper-page .form-control {
-  height: 30px;
-  padding-left: 40px;
-}
-.wrapper-page .form-control-feedback {
-  left: 15px;
-  top: 1px;
-  color: rgba(76, 86, 103, 0.4);
-  font-size: 20px;
-}
-.wrapper-page .btn-email {
-  padding: 9px 20px;
+  border-radius: 25px;
 }

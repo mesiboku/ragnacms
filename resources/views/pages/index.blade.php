@@ -3,14 +3,6 @@
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
 
-@section('menu')
-<li>
-    <a href="/register">Register</a>
-</li>
-<li>
-    <a href="/login">Login</a>
-</li>
-@endsection
 <!-- HOME -->
 @section('content')
         <div class="col-sm-12">
