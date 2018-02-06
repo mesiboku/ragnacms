@@ -3,56 +3,62 @@
 <!-- Title -->
 @section('pageTitle', Config::get('application.WebsiteName'))
 
+@section('menu')
+<li>
+    <a href="/login">Login</a>
+</li>
+@endsection
+
 @section('content')
         <div class="wrapper-page">
             <div class="reg-container">
                 <div class="text-center font-style-1">
-                    {{Lang::get('registration.CreateAccount')}}
+                    {{Lang::get('account.CreateAccount')}}
                 </div>
                 <form class="form-horizontal m-t-20" action="index.html">
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="text" required="" placeholder="{{Lang::get('registration.Username')}}">
+                            <input class="form-control" type="text" required="" placeholder="{{Lang::get('account.Username')}}">
                             <i class="md md-assignment-ind form-control-feedback l-h-34"></i>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-xs-6">
-                            <input class="form-control" type="password" required="" placeholder="{{Lang::get('registration.Password')}}">
+                            <input class="form-control" type="password" required="" placeholder="{{Lang::get('account.Password')}}">
                             <i class="md md-security form-control-feedback l-h-34"></i>
                         </div>
                         <div class="col-xs-6">
-                            <input class="form-control" type="password" required="" placeholder="{{Lang::get('registration.ConfirmPassword')}}">
+                            <input class="form-control" type="password" required="" placeholder="{{Lang::get('account.ConfirmPassword')}}">
                             <i class="md md-security form-control-feedback l-h-34"></i>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="email" required="" placeholder="{{Lang::get('registration.Email')}}" id="email">
+                            <input class="form-control" type="email" required="" placeholder="{{Lang::get('account.Email')}}" id="email">
                             <i class="md md-security form-control-feedback l-h-34"></i>
                         </div>
                     </div>
                     <div class="text-left font-style-2">
-                        {{Lang::get('registration.PersonalInfo')}}
+                        {{Lang::get('account.PersonalInfo')}}
                     </div>
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="text" required="" placeholder="{{Lang::get('registration.Name')}}">
+                            <input class="form-control" type="text" required="" placeholder="{{Lang::get('account.Name')}}">
                             <i class="md md-assignment-ind form-control-feedback l-h-34"></i>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="text" required="" placeholder="{{Lang::get('registration.LastName')}}">
+                            <input class="form-control" type="text" required="" placeholder="{{Lang::get('account.LastName')}}">
                             <i class="md md-assignment-ind form-control-feedback l-h-34"></i>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="date" required="" placeholder="{{Lang::get('registration.DateOfBirth')}}" id="datepicker">
+                            <input class="form-control" type="date" required="" placeholder="{{Lang::get('account.DateOfBirth')}}" id="datepicker">
                             <i class="md md-today form-control-feedback l-h-34"></i>
                             
                         </div>
@@ -78,7 +84,7 @@
 
                     <div class="form-group">
                         <div class="col-xs-12">
-                            <input class="form-control" type="number" required="" placeholder="{{Lang::get('registration.PhoneNumber')}}">
+                            <input class="form-control" type="number" required="" placeholder="{{Lang::get('account.PhoneNumber')}}">
                             <i class="md md-assignment-ind form-control-feedback l-h-34"></i>
                         </div>
                     </div>
@@ -86,7 +92,7 @@
                     <div class="form-group">
                         <div class="col-xs-12">
                                 <div class="text-left font-style-2">
-                                    {{Lang::get('registration.SecurityQuestions')}}
+                                    {{Lang::get('account.SecurityQuestions')}}
                                 </div>
                                 <select id="squestion" name="squestion" title=" ">
                                     <option value="What is the name of your dog?">What is the name of your dog?</option>
@@ -124,7 +130,7 @@
 
                     <div class="form-group m-t-30">
                         <div class="col-sm-12 text-center">
-                            <a href="/login" class="text-muted">{{Lang::get('registration.AlreadyHaveAccount')}}</a>
+                            <a href="/login" class="text-muted">{{Lang::get('account.AlreadyHaveAccount')}}</a>
                         </div>
                     </div>
                 </form>
