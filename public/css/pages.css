@@ -496,7 +496,7 @@ h3.timeline-title {
 }
 /* Multiple */
 .ms-container {
-  background: transparent url('/images/multiple-arrow.png') no-repeat 50% 50%;
+  background: transparent url('../images/multiple-arrow.png') no-repeat 50% 50%;
 }
 .ms-container .ms-list {
   box-shadow: none;
@@ -1089,11 +1089,7 @@ h3.timeline-title {
  =============*/
 .wrapper-page {
   margin: 7.5% auto;
-  max-width: 450px;
-  width: 50%;
-  border: 5px solid;
-  padding: 20px;
-  color: #4a8e99;
+  max-width: 360px;
 }
 .wrapper-page .form-control {
   height: 40px;
@@ -1107,6 +1103,12 @@ h3.timeline-title {
 }
 .wrapper-page .btn-email {
   padding: 9px 20px;
+}
+.logo-lg {
+  font-size: 26px !important;
+  font-weight: 600;
+  line-height: 70px;
+  color: #3bafda !important;
 }
 .user-thumb img {
   height: 88px;

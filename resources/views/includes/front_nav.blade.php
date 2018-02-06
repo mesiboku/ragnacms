@@ -53,7 +53,7 @@
                 <a href="#faq">About</a>
               </li>
               <li>
-                <a href="#media">Media</a>
+                <a href="/posts">Media</a>
               </li>
               <li>
                 <a href="#partners">Partners</a>

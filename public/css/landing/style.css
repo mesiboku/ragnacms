@@ -747,3 +747,10 @@ display: none !important;
     padding: 0px 0px 50px 30px !important;
   }
 }
+
+
+section.home {
+  background: linear-gradient(rgb(68, 79, 92), rgb(51, 65, 89)) 0% -56.5px;
+  position: relative;
+  height: 100%;
+}
